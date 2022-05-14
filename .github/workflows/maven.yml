@@ -29,4 +29,6 @@ jobs:
       run: |
         ls
         echo "------------"
-        locate *.jar
+        cd target
+        ls
+        echo "------------"
