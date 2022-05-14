@@ -4,7 +4,10 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-
+    
+env:
+  Env-name: Fortify-scan
+  san: santhoo
 jobs:
   build:
 
@@ -31,6 +34,8 @@ jobs:
         echo $https_proxy   
         echo $var
         echo $HTTP_PROXY
+        echo "-----------------"
+        echo $san
          
          
  
