@@ -34,3 +34,4 @@ jobs:
         echo "------------"
         javac -version
         mvn -version
+        java -version
