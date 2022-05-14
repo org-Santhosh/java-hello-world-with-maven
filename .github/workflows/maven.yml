@@ -43,13 +43,17 @@ jobs:
       run: |
         export http_proxy=http://16.112.255.5:80
         https_proxy=https://16.112.255.5:443
+        set var=bash
         echo $http_proxy
         echo $https_proxy
+        echo $var
+        
         
     - name: test2
       run: |
         echo $http_proxy
         echo $https_proxy   
+        echo $var
          
          
      
