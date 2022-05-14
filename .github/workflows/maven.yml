@@ -47,6 +47,8 @@ jobs:
         echo $http_proxy
         echo $https_proxy
         echo $var
+        echo $HTTP_PROXY
+
         
         
     - name: test2
@@ -54,6 +56,7 @@ jobs:
         echo $http_proxy
         echo $https_proxy   
         echo $var
+        echo $HTTP_PROXY
          
          
      
