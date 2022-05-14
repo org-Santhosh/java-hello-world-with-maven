@@ -33,3 +33,4 @@ jobs:
         ls
         echo "------------"
         javac -version
+        mvn -version
