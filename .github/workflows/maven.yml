@@ -30,5 +30,11 @@ jobs:
         ls
         echo "------------"
         javac -version
+        echo "------------"
         mvn -version
+        echo "------------"
         java -version
+        echo "------------"
+        whereis java
+        echo "------------"
+        which java
