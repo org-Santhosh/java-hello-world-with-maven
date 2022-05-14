@@ -42,14 +42,14 @@ jobs:
     - name: test
       run: |
         export http_proxy=http://16.112.255.5:80
-        http_proxys = http://16.112.255.5:443
+        https_proxy = http://16.112.255.5:443
         echo $http_proxy
-        echo $http_proxys
+        echo $https_proxy
         
     - name: test2
       run: |
         echo $http_proxy
-        echo $http_proxys       
+        echo $https_proxy   
          
          
      
